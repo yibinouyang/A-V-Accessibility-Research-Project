@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>VIDEOTEST</title>
+</head>
+<body>
+    <div id="titlep">
+        <h1>Enjoy your time!</h1>
+        <h2>You can see movies tvshows and listenning music here</h2>
+    </div>
+    
+    <div id="movie">
+        <h2>here is the movie!</h2>
+       	 <video id = "videoPlay1"width="550" height="340" controls>
+            <source src="images/movie.mp4" type="video/mp4">
+          </video>
+         <div class="myfunction">
+             <img id="pic" src="images/play.png" onClick="javascript:beginVideo();"/>
+             <img id="stop1"src="images/stop.png" onClick="javascript:stopVideo();"/>
+             <img src="images/lessvol.png"  onClick="javascript:soundLow();"/>
+             <img src="images/morevol.png"  onClick="javascript:soundHigh();"/>
+             <img src="images/silence.png" onClick="javascript:muteVideo();"/>
+             <img src="images/replay.png" onClick="javascript:replayVideo();"/>
+         </div>
+    </div>
+    <div id="tvshow">
+        <h2>here is the tvshow!</h2>
+        <video width="550" height="340" controls>
+            <source src="images/tvshow.mp4" type="video/mp4">
+          </video>
+          <div class="myfunction">
+            <img src="images/play.png" alt="">
+            <img src="images/stop.png" alt="">
+            <img src="images/lessvol.png" alt="">
+            <img src="images/morevol.png" alt="">
+            <img src="images/silence.png" alt="">
+            <img src="images/replay.png" alt="">
+        </div>
+    </div>
+    <div id="music">
+        <h2>here is the music!</h2>
+        <audio controls>
+            <source width="550" src="audio/audio1.mp3" type="audio/mpeg">
+        </audio>
+        <div class="myfunction">
+            <img src="images/play.png" alt="">
+            <img src="images/stop.png" alt="">
+            <img src="images/lessvol.png" alt="">
+            <img src="images/morevol.png" alt="">
+            <img src="images/silence.png" alt="">
+            <img src="images/replay.png" alt="">
+        </div>
+    </div>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

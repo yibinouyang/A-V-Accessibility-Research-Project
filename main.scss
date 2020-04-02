@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(252, 252, 206);
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    .myfunction{
+        border: 5px solid goldenrod;
+        background-color: indianred;
+        display: inline-table;
+        text-align: center;
+        margin: 0 auto;
+        width: 550px;
+        image{
+            width: 20px;
+            height: auto;
+            display: inline;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+}
