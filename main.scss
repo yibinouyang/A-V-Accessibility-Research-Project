@@ -1,17 +1,29 @@
 body{
-    background-color: rgb(252, 252, 206);
-    width: 700px;
+    background-color: rgb(255, 255, 233);
+    width: 750px;
     text-align: center;
     margin: 0 auto;
+    h1{
+        width: 750px;
+        text-align: center;
+        margin:0 auto;
+        color: goldenrod;
+    }
+    h2{
+        text-align: center;
+        margin-top: 20px;
+        width: 750px;
+        color: indianred;
+    }
     .myfunction{
         border: 5px solid goldenrod;
         background-color: indianred;
         display: inline-table;
         text-align: center;
         margin: 0 auto;
-        width: 550px;
+        width:750px;
         image{
-            width: 20px;
+            width: 30px;
             height: auto;
             display: inline;
             text-align: center;

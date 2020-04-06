@@ -1,8 +1,20 @@
 body {
-  background-color: #fcfcce;
-  width: 700px;
+  background-color: #ffffe9;
+  width: 750px;
   text-align: center;
   margin: 0 auto;
+}
+body h1 {
+  width: 750px;
+  text-align: center;
+  margin: 0 auto;
+  color: goldenrod;
+}
+body h2 {
+  text-align: center;
+  margin-top: 20px;
+  width: 750px;
+  color: indianred;
 }
 body .myfunction {
   border: 5px solid goldenrod;
@@ -10,10 +22,10 @@ body .myfunction {
   display: inline-table;
   text-align: center;
   margin: 0 auto;
-  width: 550px;
+  width: 750px;
 }
 body .myfunction image {
-  width: 20px;
+  width: 30px;
   height: auto;
   display: inline;
   text-align: center;
